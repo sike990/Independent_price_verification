@@ -1,18 +1,18 @@
-Independent Price Verification (IPV) Dashboard (MS Excel)
+#Independent Price Verification (IPV) Dashboard (MS Excel)
 
-Project Overview
+##Project Overview
 
 This project is an advanced MS Excel dashboard built to simulate the core day-to-day function of a Valuation Control (VCS) analyst: performing an Independent Price Verification (IPV).
 
 The system automates the process of comparing "Trader Marks" (prices from the Front Office) against an independent market data source to find, quantify, and report on pricing discrepancies (variances).
 
-The Business Problem
+##The Business Problem
 
 In any financial institution, the Front Office (Traders) values its own portfolio. A core "control" function, VCS, must independently verify these prices to manage risk, prevent over-valuation, and ensure the bank's financial statements are accurate.
 
 This dashboard is the tool that automates this entire reconciliation and reporting process, allowing a manager to instantly identify the source and scale of pricing risks.
 
-Key Features
+##Key Features
 
 Automated Data Consolidation: Dynamically pulls data from three separate "raw data" sources (Trader Marks, Independent Prices, Portfolio Holdings) into a central calculation engine.
 
@@ -28,7 +28,7 @@ One-Click Filtering: Fully interactive Slicers and PivotCharts allow any user to
 
 Visual Risk Alerts: Uses Conditional Formatting to automatically highlight high-risk (negative) variances in red, making them "pop" off the page.
 
-Technical Skills & Functions Demonstrated
+##Technical Skills & Functions Demonstrated
 
 XLOOKUP: Used as the primary lookup function to robustly link data from multiple tables. (Superior to VLOOKUP as it is not dependent on column order).
 
@@ -44,7 +44,7 @@ Data Structuring: Designed a clean and scalable data model by separating raw "so
 
 Absolute & Relative References ($): Used to create robust formulas that can be dragged down without breaking references.
 
-Excel File Structure
+##Excel File Structure
 
 The workbook is organized into 5 distinct sheets for clarity, scalability, and control:
 
@@ -58,7 +58,7 @@ Control_Sheet (Calculation Engine): The "brains" of the project. This sheet cons
 
 Dashboard (Presentation Layer): The final, high-level summary for management. Contains the Pivot Table, PivotChart, and Slicers.
 
-How to Use
+##How to Use
 
 Update the raw data in the first three sheets (Trader_Prices, Official_Prices, Portfolio_Holdings).
 
